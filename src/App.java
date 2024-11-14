@@ -17,6 +17,8 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         PacMan pacmanGame = new PacMan();
+        frame.add(pacmanGame);
+        frame.pack();
 
 
     }
