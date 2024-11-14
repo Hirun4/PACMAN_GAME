@@ -12,7 +12,8 @@ public class App {
         JFrame frame = new JFrame("Pac Man");
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
-        
+        frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
     }
