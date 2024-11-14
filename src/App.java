@@ -11,6 +11,8 @@ public class App {
 
         JFrame frame = new JFrame("Pac Man");
         frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
+        
 
 
     }
