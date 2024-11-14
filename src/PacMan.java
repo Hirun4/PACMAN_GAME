@@ -96,6 +96,7 @@ public class PacMan extends JPanel {
     public void loadMap(){
         walls = new HashSet<Block>();
         foods = new HashSet<Block>();
+        ghosts = new HashSet<Block>();
     }
 
 }
