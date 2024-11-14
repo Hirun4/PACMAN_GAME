@@ -29,10 +29,10 @@ public class PacMan extends JPanel {
 
         //load images
         wallImage = new ImageIcon(getClass().getResource("./wall.png")).getImage();
-        blueGhostImage = new ImageIcon(getClass().getResource("./blueGhostImage.png")).getImage();
-        orangeGhostImage = new ImageIcon(getClass().getResource("./orangeGhostImage.png")).getImage();
-        pinkGhostImage = new ImageIcon(getClass().getResource("./pinkGhostImage.png")).getImage();
-        redGhostImage = new ImageIcon(getClass().getResource("./redGhostImage.png")).getImage();
+        blueGhostImage = new ImageIcon(getClass().getResource("./blueGhost.png")).getImage();
+        orangeGhostImage = new ImageIcon(getClass().getResource("./orangeGhost.png")).getImage();
+        pinkGhostImage = new ImageIcon(getClass().getResource("./pinkGhost.png")).getImage();
+        redGhostImage = new ImageIcon(getClass().getResource("./redGhost.png")).getImage();
     }
 
 }
