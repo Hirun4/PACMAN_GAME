@@ -93,4 +93,8 @@ public class PacMan extends JPanel {
         pacmanRightImage = new ImageIcon(getClass().getResource("./pacmanRight.png")).getImage();
     }
 
+    public void loadMap(){
+        walls = new HashSet<Block>();
+    }
+
 }
