@@ -105,6 +105,10 @@ public class PacMan extends JPanel {
 
                 int x = c* tileSize;
                 int y = r* tileSize;
+
+                if (tileMapChar == 'X') {//block wall
+                    Block wall = new Block(wallImage,x,y,tileSize,tileSize);
+                }
             }
         }
     }
