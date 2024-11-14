@@ -122,6 +122,9 @@ public class PacMan extends JPanel {
                     ghosts.add(ghost);
                 }else if (tileMapChar == 'P') {// pacman
                     pacman = new Block(pacmanRightImage,x,y,tileSize,tileSize);
+                }else if (tileMapChar == ' ') {//food
+                    Block food = new Block( null,x +14,y +14, 4, 4);
+                    foods.add(food);
                 }
             }
 
