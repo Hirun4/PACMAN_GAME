@@ -22,6 +22,8 @@ public class PacMan extends JPanel {
             this.y = y;
             this.width = width;
             this.height = height;
+            this.startX = x;
+            this.startY = y;
         }
     }
     private int rowCount = 21;
