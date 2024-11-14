@@ -10,6 +10,8 @@ public class PacMan extends JPanel {
         int x;
         int y;
         int width;
+        int height;
+        
     }
     private int rowCount = 21;
     private int columnCount = 19;
