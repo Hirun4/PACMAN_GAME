@@ -9,6 +9,7 @@ public class PacMan extends JPanel {
     class Block{
         int x;
         int y;
+        int width;
     }
     private int rowCount = 21;
     private int columnCount = 19;
