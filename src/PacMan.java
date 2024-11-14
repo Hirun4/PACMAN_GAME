@@ -13,6 +13,7 @@ public class PacMan extends JPanel {
 
     PacMan() {
         setPreferredSize(new Dimension(boardWidth,boardHeight));
+        setBackground(Color.BLACK);
     }
 
 }
