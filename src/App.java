@@ -10,6 +10,7 @@ public class App {
         int boardHeight = rowCount * tileSize;
 
         JFrame frame = new JFrame("Pac Man");
+        frame.setVisible(true);
 
 
     }
