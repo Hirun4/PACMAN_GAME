@@ -28,7 +28,7 @@ public class PacMan extends JPanel {
         setBackground(Color.BLACK);
 
         //load images
-        wallImage = new ImageIcon(getClass().getResource("./wall.png"))
+        wallImage = new ImageIcon(getClass().getResource("./wall.png")).getImage();
     }
 
 }
