@@ -5,6 +5,11 @@ import java.util.Random;
 import javax.swing.*;
 
 public class PacMan extends JPanel {
+
+    class Block{
+        int x;
+        int y;
+    }
     private int rowCount = 21;
     private int columnCount = 19;
     private int tileSize = 32;
