@@ -9,6 +9,8 @@ public class App {
         int boardWidth = columnCount * tileSize;
         int boardHeight = rowCount * tileSize;
 
+        JFrame frame = new JFrame("Pac Man");
+
 
     }
 }
