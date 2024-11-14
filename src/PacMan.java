@@ -26,6 +26,9 @@ public class PacMan extends JPanel {
     PacMan() {
         setPreferredSize(new Dimension(boardWidth,boardHeight));
         setBackground(Color.BLACK);
+
+        //load images
+        wallImage = new ImageIcon(getClass().getResource("./wall.png"))
     }
 
 }
