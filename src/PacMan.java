@@ -43,6 +43,11 @@ public class PacMan extends JPanel {
    private Image pacmanLeftImage;
    private Image pacmanRightImage;
 
+   HashSet<Block> walls;
+   HashSet<Block> foods;
+   HashSet<Block> ghosts;
+   Block pacman;
+
 
     PacMan() {
         setPreferredSize(new Dimension(boardWidth,boardHeight));
