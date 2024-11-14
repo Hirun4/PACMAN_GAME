@@ -17,6 +17,12 @@ public class PacMan extends JPanel {
     private Image pinkGhostImage;
     private Image redGhostImage;
 
+   private Image pacmanUpImage;
+   private Image pacmanDownImage;
+   private Image pacmanLeftImage;
+   private Image pacmanRightImage;
+
+
     PacMan() {
         setPreferredSize(new Dimension(boardWidth,boardHeight));
         setBackground(Color.BLACK);
